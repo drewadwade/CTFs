@@ -1,22 +1,14 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jan 17 09:41:51 2019
-
-@author: AndrewW
-"""
 
 def single_XOR(a):
 
     start = a
     # Convert hex to byte array for a and b
     a = bytearray.fromhex(a).decode('latin-1')
-    
-    english = ["E","T","A","O","I","N","S","H","R","D","L","U"]
+
     phrase = []
-    list = []
     highest = 0
     byte =[]
-    i=0
+
     for i in range(128): 
         score = 0
         # Convert int i to hex
@@ -102,4 +94,3 @@ for result in results:
     
 print(final_result)
 
-#   print(result)

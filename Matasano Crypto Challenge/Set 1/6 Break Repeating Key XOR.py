@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jan 18 12:57:55 2019
-
-@author: AndrewW
-"""
 
 import base64
 import binascii

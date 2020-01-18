@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Feb  7 16:08:01 2019
-
-@author: AndrewW
-"""
 
 # In this file are a bunch of hex-encoded ciphertexts.
 

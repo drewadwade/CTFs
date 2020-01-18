@@ -1,22 +1,13 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jan 17 09:41:51 2019
-
-@author: AndrewW
-"""
-
 # Here is the source hex to be XOR'd
 a = '1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736'
 start = a
 # Convert hex to byte array for a and b
 a = bytearray.fromhex(a).decode()
 
-english = ["E","T","A","O","I","N","S","H","R","D","L","U"]
 phrase = []
-list = []
 highest = 0
 byte =[]
-i=0
+
 for i in range(121): 
     score = 0
     # Convert int i to hex
@@ -70,4 +61,3 @@ for i in range(121):
         byte= i
 
 print ("This: " + start + " XOR'd against: " + byte + " is: " + phrase + " at " + str(score))
-  

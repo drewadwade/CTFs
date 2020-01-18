@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Feb  7 12:35:56 2019
 
-@author: AndrewW
-"""
 
 # The Base64-encoded content in this file has been encrypted via AES-128 in ECB 
 # mode under the key "YELLOW SUBMARINE" (case-sensitive, without the quotes; 
@@ -47,5 +42,3 @@ msg_dec = msg_dec.hex()
 # Convert the hex string results to ASCII plain text 
 msg_dec = bytes.fromhex(msg_dec).decode("ascii")
 print(msg_dec)
-
-

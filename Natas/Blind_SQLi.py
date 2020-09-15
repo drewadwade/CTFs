@@ -61,7 +61,7 @@ while places <= 64:
         # if the word "exists" is in the text of the response
         if "exists" in req.text:
            
-            # add that character to the used characters string
+            # add that character to the password string
             password += char2
     
             # display the password as it builds
